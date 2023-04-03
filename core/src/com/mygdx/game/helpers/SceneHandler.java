@@ -3,12 +3,11 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
-import com.mygdx.game.entities.SimpleIcePlatform;
+
 import com.mygdx.game.nodes.Node;
 import com.mygdx.game.nodes.Root;
 import com.mygdx.game.nodes.TextureEntity;
 import com.mygdx.game.scenes.TestScene;
-import com.mygdx.game.scenes.TestScene2;
 
 import java.util.HashMap;
 
@@ -30,7 +29,6 @@ public class SceneHandler {
         scenes = new HashMap<>();
 
         scenes.put("TestScene", new TestScene());
-        scenes.put("TestScene2", new TestScene2());
 
 
         batch = new SpriteBatch();
